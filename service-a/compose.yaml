@@ -1,6 +1,6 @@
-﻿services:
+services:
   app:
     image: nginx:alpine
     env_file: .env
     ports:
-      - "8081:80"
+      - "18081:80"
